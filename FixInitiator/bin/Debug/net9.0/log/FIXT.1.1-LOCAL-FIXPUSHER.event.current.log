@@ -1,0 +1,82 @@
+20250902-22:11:05.827 : Created session
+20250902-22:11:05.865 : Connecting to 127.0.0.1 on port 5020
+20250902-22:11:08.030 : Connection failed: System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it. 127.0.0.1:5020
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at QuickFix.Transport.StreamFactory.CreateClientStream(IPEndPoint endpoint, SocketSettings settings, NonSessionLog nonSessionLog)
+   at QuickFix.SocketInitiatorThread.SetupStream()
+   at QuickFix.SocketInitiatorThread.Connect()
+   at QuickFix.Transport.SocketInitiator.SocketInitiatorThreadStart(Object socketInitiatorThread)
+20250902-22:11:10.945 : Connecting to 127.0.0.1 on port 5020
+20250902-22:11:12.990 : Connection failed: System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it. 127.0.0.1:5020
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at QuickFix.Transport.StreamFactory.CreateClientStream(IPEndPoint endpoint, SocketSettings settings, NonSessionLog nonSessionLog)
+   at QuickFix.SocketInitiatorThread.SetupStream()
+   at QuickFix.SocketInitiatorThread.Connect()
+   at QuickFix.Transport.SocketInitiator.SocketInitiatorThreadStart(Object socketInitiatorThread)
+20250902-22:11:15.997 : Connecting to 127.0.0.1 on port 5020
+20250902-22:11:18.043 : Connection failed: System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it. 127.0.0.1:5020
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at QuickFix.Transport.StreamFactory.CreateClientStream(IPEndPoint endpoint, SocketSettings settings, NonSessionLog nonSessionLog)
+   at QuickFix.SocketInitiatorThread.SetupStream()
+   at QuickFix.SocketInitiatorThread.Connect()
+   at QuickFix.Transport.SocketInitiator.SocketInitiatorThreadStart(Object socketInitiatorThread)
+20250902-22:11:21.039 : Connecting to 127.0.0.1 on port 5020
+20250902-22:11:21.043 : Connection succeeded
+20250902-22:11:21.051 : Session reset: ResetOnLogon
+20250902-22:11:21.056 : Session reset: ResetSeqNumFlag
+20250902-22:11:21.068 : Initiated logon request
+20250902-22:11:21.085 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20250902-22:11:21.086 : Received logon
+20250902-22:14:21.260 : Message 7 Rejected: Required tag missing (Field=37)
+20250902-22:14:28.315 : Sent test request TEST
+20250902-22:14:34.379 : Initiated logout request
+20250902-22:14:34.381 : Received logout response
+20250902-22:14:34.381 : Session FIXT.1.1:LOCAL->FIXPUSHER disconnecting: Received logout response
+20250902-22:14:34.382 : Session FIXT.1.1:LOCAL->FIXPUSHER already disconnected: System.ObjectDisposedException: The CancellationTokenSource has been disposed.
+   at QuickFix.SocketInitiatorThread.ReadSome(Byte[] buffer, Int32 timeoutMilliseconds)
+   at QuickFix.SocketInitiatorThread.Read()
+20250902-22:19:44.163 : Created session
+20250902-22:19:44.198 : Connecting to 127.0.0.1 on port 5020
+20250902-22:19:46.375 : Connection failed: System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it. 127.0.0.1:5020
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at QuickFix.Transport.StreamFactory.CreateClientStream(IPEndPoint endpoint, SocketSettings settings, NonSessionLog nonSessionLog)
+   at QuickFix.SocketInitiatorThread.SetupStream()
+   at QuickFix.SocketInitiatorThread.Connect()
+   at QuickFix.Transport.SocketInitiator.SocketInitiatorThreadStart(Object socketInitiatorThread)
+20250902-22:19:49.350 : Connecting to 127.0.0.1 on port 5020
+20250902-22:19:51.372 : Connection failed: System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it. 127.0.0.1:5020
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at QuickFix.Transport.StreamFactory.CreateClientStream(IPEndPoint endpoint, SocketSettings settings, NonSessionLog nonSessionLog)
+   at QuickFix.SocketInitiatorThread.SetupStream()
+   at QuickFix.SocketInitiatorThread.Connect()
+   at QuickFix.Transport.SocketInitiator.SocketInitiatorThreadStart(Object socketInitiatorThread)
+20250902-22:19:54.382 : Connecting to 127.0.0.1 on port 5020
+20250902-22:19:54.386 : Connection succeeded
+20250902-22:19:54.394 : Session reset: ResetOnLogon
+20250902-22:19:54.400 : Session reset: ResetSeqNumFlag
+20250902-22:19:54.411 : Initiated logon request
+20250902-22:19:54.422 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20250902-22:19:54.423 : Received logon
+20250902-22:20:07.563 : Message 2 Rejected: Required tag missing (Field=37)
+20250902-22:23:23.220 : Created session
+20250902-22:23:23.252 : Connecting to 127.0.0.1 on port 5020
+20250902-22:23:23.328 : Connection succeeded
+20250902-22:23:23.337 : Session reset: ResetOnLogon
+20250902-22:23:23.343 : Session reset: ResetSeqNumFlag
+20250902-22:23:23.355 : Initiated logon request
+20250902-22:23:23.368 : Sequence numbers reset due to ResetSeqNumFlag=Y
+20250902-22:23:23.369 : Received logon
+20250902-22:23:51.801 : Message 2 Rejected: Required tag missing (Field=17)
+20250902-22:23:59.834 : Sent test request TEST
+20250902-22:24:17.236 : Message 4 Rejected: Required tag missing (Field=150)
+20250902-22:24:29.800 : Message 5 Rejected: Required tag missing (Field=39)
+20250902-22:24:36.829 : Sent test request TEST
+20250902-22:24:42.360 : Message 7 Rejected: Required tag missing (Field=54)
+20250902-22:24:49.107 : Message 8 Rejected: Required tag missing (Field=151)
+20250902-22:25:06.284 : Message 9 Rejected: Required tag missing (Field=14)
+20250902-22:25:13.318 : Sent test request TEST
